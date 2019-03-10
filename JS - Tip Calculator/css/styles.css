@@ -1,0 +1,176 @@
+body {
+  margin: 0;
+  font-family: 'Merriweather', serif;
+  background: #333 url('images/cutlery.jpg') center center no-repeat;
+  background-size: cover;
+}
+
+#container {
+  width: 400px;
+  margin: 40px auto 40px;
+  padding: 50px;
+  box-sizing: border-box;
+  box-shadow: 0 10px 15px -8px #000;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  text-align: center;
+  background-color: #a3816a;
+}
+
+h1 {
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  font-size: 55px;
+  color: #000;
+  margin: 0 0 20px;
+  padding: 0 0 20px;
+  border-bottom: solid 1px #ddd;
+}
+
+form {
+  text-align: left;
+}
+
+form input {
+  padding: 8px;
+  margin: 10px 0;
+}
+
+form label {
+  display: block;
+  margin: 25px 0;
+  font-weight: bold;
+}
+
+form select{
+  padding: 8px;
+  margin: 10px 0;
+}
+
+#billAmount {
+  width: 90px;
+}
+
+#totalPeople {
+  width: 90px;
+}
+
+#totalTip {
+  font-size: 50px;
+  margin-top: 40px;
+}
+
+#totalTip:before {
+  content: "Tip Amount";
+  font-size: 14px;
+  font-weight: bold;
+  display: block;
+  text-transform: uppercase;
+}
+
+#totalTip sup {
+  font-size: 24px;
+  top: -18px;
+}
+
+#totalTip small {
+  font-size: 14px;
+  font-weight: bold;
+  display: block;
+}
+
+p {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+  color: #309286;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #309286;
+}
+
+.tophr {
+  display: block;
+    content: "";
+    height: 30px;
+    margin-top: -31px;
+    border-style: solid;
+    border-color: #013220;
+    border-width: 0 0 1px 0;
+    border-radius: 20px;
+    width: 1300px;
+    margin-bottom: 0;
+
+}
+.bottomhr {
+  overflow: visible; /* For IE */
+    height: 30px;
+    border-style: solid;
+    border-color: #013220;
+    border-width: 1px 0 0 0;
+    border-radius: 20px;
+    width: 1300px;
+    margin-top: 0;
+}
+
+.top {
+  background-color: #b4e9e2;
+  position: relative;
+  padding-top: 100px;
+  width: auto;
+}
+
+.middle-container {
+
+}
+
+.bottom-container {
+  padding: 50px 0 20px;
+  background-color: #309286;
+}
+
+.contact-me {
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+
+#btn {
+  background: #5d3a3a;
+  background-image: -webkit-linear-gradient(top, #5d3a3a, #905858);
+  background-image: -moz-linear-gradient(top, #5d3a3a, #905858);
+  background-image: -ms-linear-gradient(top, #5d3a3a, #905858);
+  background-image: -o-linear-gradient(top, #5d3a3a, #905858);
+  background-image: linear-gradient(to bottom, #5d3a3a, #905858);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  text-shadow: 1px 1px 3px #666666;
+  font-family: Montserrat;
+  color: #ffffff;
+  font-size: 22px;
+  padding: 20px 30px;
+  width: 100%;
+  text-decoration: none;
+}
+
+#btn:hover {
+  background: #30ecbe;
+  background-image: -webkit-linear-gradient(top, #905858, #5d3a3a);
+  background-image: -moz-linear-gradient(top, #905858, #5d3a3a);
+  background-image: -ms-linear-gradient(top, #905858, #5d3a3a);
+  background-image: -o-linear-gradient(top, #905858, #5d3a3a);
+  background-image: linear-gradient(to bottom, #905858, #5d3a3a);
+  text-decoration: none;
+}
+
+#btn:active {
+  position: relative;
+  top: 2px;
+}
